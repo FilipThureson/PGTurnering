@@ -1,0 +1,12 @@
+body{
+    background-color: #505050;
+    color: #dadada;
+}
+#add{
+    border:2px solid #dadada;
+    text-align: center;
+}
+#teams{
+    border: 2px solid #dadada;
+    text-align: center;
+}
