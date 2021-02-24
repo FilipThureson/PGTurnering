@@ -1,8 +1,10 @@
+//AUTHOR FILIP FUCKING THURESSON
+//I DIG
 var addBTN = document.getElementById('addBTN');
 var removePlayerList = document.getElementById('playerListClear')
 var playerOutput = document.getElementById('playerOutput');
 var allplayers = JSON.parse(localStorage.getItem("players")) ?? [];
-
+const Creator = "FILIP FUCKING THURESSON";
 if(allplayers != null){
     allplayers.forEach(player=> {
         playerOutput.innerHTML += `<div id="${player.name}DivId"><strong>${player.name} : ${player.elo}</strong><button id="${player.name}">-</button></div>`;
