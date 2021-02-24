@@ -21,6 +21,7 @@ body{
     width: 100%;
 }
 .player{
+    font: 1.25rem;
     border: 1px solid #dadada;
     width: 50%;
     text-align: center;
