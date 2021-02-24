@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/master.css">
-    <script defer src="js/main.js"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PG Turnering</title>
 </head>
@@ -18,12 +18,22 @@
             <input type="number" id="elo">  <br>
             <Button id="addBTN">Add</Button>
         </div>
-        <div id="teams">
-            <h1>Teams</h1>
-            <div id="output">
-                Currently None
+        <div id="wrapper">
+            <div id="players">
+                <h1>Players</h1>
+                <div id="playerOutput">
+                    Currently None
+                </div>
+            </div>
+            <div id="teams">
+                <button id="teamsCreate">Create Teams</button>
+                <h1>Teams</h1>
+                <div id="output">
+                    Currently None
+                </div>
             </div>
         </div>
     </main>
+    <script src="js/main.js"></script>
 </body>
 </html>
