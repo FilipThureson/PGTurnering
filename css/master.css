@@ -1,6 +1,23 @@
 body{
     background-color: #505050;
     color: #dadada;
+    text-align: center;
+}
+button{
+    color: #dadada;
+    background-color: inherit;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: 2px solid #dadada;
+    border-radius: 10px;
+}
+input{
+    padding: 10px;
+    border: 2px solid #dadada;
+    background-color: inherit;
+    color: #dadada;
+    border-radius: 10px;
 }
 #add{
     border:2px solid #dadada;
