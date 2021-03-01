@@ -3,6 +3,9 @@ body{
     color: #dadada;
     text-align: center;
 }
+ul li{
+    list-style-type: none;
+}
 button{
     color: #dadada;
     background-color: inherit;
